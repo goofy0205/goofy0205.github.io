@@ -1,0 +1,8 @@
+body{background-image: url(../images/5698101.jpg);text-align: center;background-repeat: no-repeat;background-size:cover;font-family:'Hi Melody', cursive;}
+div{position: fixed;}
+#num1{top: 36%;left: 4%;}
+#num2{top: 56%;left: 42%;}
+#num3{top: 4%;left: 38%;}
+#num4{top: 14%;left: 68%;}
+#num5{top: 55%;left: 85%;}
+#btn1{position:fixed;left: 90%;bottom: 30%;width: 0;text-align: center;width: 80px;height: 50px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;cursor: pointer;}

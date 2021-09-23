@@ -1,0 +1,11 @@
+body{font-family: 'Hi Melody', cursive;background-image: url(../images/business-partners-handshake-global-corporate-with-technology-concept.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;text-shadow: -2px 0 lightblue, 0 2px lightblue, 2px 0 lightblue, 0 -2px lightblue;}
+fieldset{text-align: center;border: none;}
+legend{font-size:50px;}
+ul{list-style: none;}
+label{font-size: 25px;}
+input{border-color: lightblue;border-style: solid;border-radius: 5px;background-color: rgb(238, 239, 241);height: 25px;}
+.btn {width:30%;height:40px;background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);background-size: 200%;color:white;font-weight: bold;border:none;cursor:pointer;transition: 0.4s;}
+.btn:hover{background-position: right;}
+.err{display: none;color: red;}
+aside{position:fixed;left: 90%;bottom: 40%;width: 0;text-align: center;}
+#btn1{width: 80px;height: 50px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;cursor: pointer;}

@@ -1,0 +1,5 @@
+$( document ).ready( function() {var jbOffset = $( '.fix1' ).offset();$( window ).scroll( function() {if ( $( document ).scrollTop() > jbOffset.top ) {$( '.fix1' ).addClass( 'fixed' );}else {$( '.fix1' ).removeClass( 'fixed' );}});});
+$( document ).ready( function() {var jbOffset = $( '.fix2' ).offset();$( window ).scroll( function() {if ( $( document ).scrollTop() > jbOffset.top ) {$( '.fix2' ).addClass( 'fixed' );}else {$( '.fix2' ).removeClass( 'fixed' );}});});
+$( document ).ready( function() {var jbOffset = $( '.fix3' ).offset();$( window ).scroll( function() {if ( $( document ).scrollTop() > jbOffset.top ) {$( '.fix3' ).addClass( 'fixed2' );}else {$( '.fix3' ).removeClass( 'fixed2' );}});});
+$( document ).ready( function() {var jbOffset = $( '.fix4' ).offset();$( window ).scroll( function() {if ( $( document ).scrollTop() > jbOffset.top ) {$( '.fix4' ).addClass( 'fixed2' );}else {$( '.fix4' ).removeClass( 'fixed2' );}});});
+$( document ).ready( function() {var jbOffset = $( '.fix5' ).offset();$( window ).scroll( function() {if ( $( document ).scrollTop() > jbOffset.top ) {$( '.fix5' ).addClass( 'fixed' );}else {$( '.fix5' ).removeClass( 'fixed' );}});});

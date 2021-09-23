@@ -1,0 +1,15 @@
+body{background-image: url(../images/2979562.jpg);background-repeat: no-repeat;background-size:cover;background-color: rgb(170, 239, 255);font-family:'Hi Melody', cursive;}
+img{width: 60px; position: fixed;}
+#num1{top: 25%; left: 22%; cursor: pointer;}
+#num2{top: 15%; left: 15%; cursor: pointer;}
+#num3{top: 25%; left: 78.5%; cursor: pointer;}
+#num4{top: 25%; left: 81.6%; cursor: pointer;}
+#num5{top: 27%; left: 73%;}
+#num6{top: 30%; left: 76.8%;}
+#num7{top: 33%; left: 76.8%;}
+#num8{top: 37.5%; left: 71.8%;}
+p{position: fixed; bottom: 120px; left: 160px;font-size: 20px;}
+aside{position:fixed;left: 90%;bottom: 15%;width: 0;text-align: center;}
+#btn1{width: 70px;height: 50px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px 45px 0px 0px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;cursor: pointer;}
+#btn2{width: 70px;height: 50px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 0px 0px 45px 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;cursor: pointer;}
+a{text-decoration: none; color: black;}

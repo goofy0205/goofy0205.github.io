@@ -1,0 +1,16 @@
+body{background-image: url(../images/90462.jpg);background-repeat: no-repeat;background-size:cover;background-attachment:fixed;font-family:'Hi Melody', cursive;}
+.img{display: block;margin: 0px auto;float:left;z-index:5;width:100px;height:100px;padding-bottom: 10px;}
+.navi{list-style-type: none;padding-left: 0;}
+.navi p{position:absolute;top:220px;width:100px;height:100px;text-decoration: none;text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow;text-align: center;color:black;font-weight: 600;font-size: x-large;opacity:0;transition: .5s;}
+.navi li{position: relative; float: left;padding: 0;overflow: hidden;}
+.navi li:hover p{opacity:1;transform: translateY(-200px);}
+footer{position: fixed;left: 0px;bottom: 0px;width: 100%;text-align: center;font-size:medium;padding-right: 10px;}
+#link_list{position: fixed;margin-left: 17%;}
+.a{position:fixed;}
+.c{position: absolute;display: none;}
+.a:hover .c{display: block;}
+h1{font-size: 60px;text-align: center;}
+.info{text-align: center;font-size: 20px;text-shadow: -2px 0 lightblue, 0 2px lightblue, 2px 0 lightblue, 0 -2px lightblue;}
+aside{position:fixed;left: 90%;bottom: 40%;width: 0;text-align: center;}
+#btn1{width: 70px;height: 40px;font-size: 20px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;cursor: pointer;}
+a{text-decoration: none; color: black;font-weight: 700;}

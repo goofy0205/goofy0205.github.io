@@ -1,0 +1,6 @@
+$(btn1).on('click', e => {$(main).slideUp();$(historylist).slideUp();$(resume).slideToggle(1000);});
+$(btn2).on('click', e => {$(main).slideUp();$(resume).slideUp();$(historylist).slideToggle(1000);});
+$('.title').on('click', function(e){const $target = $(this);$("p.content").each(function(i,p){if($(this).is($target.next())){$(this).slideToggle();}else{ $(this).slideUp();}});});
+$(btn3).on('click',e=>{const width = 700;const height = 500;const x = (screen.availWidth - width) / 2 + screen.availLeft;const y = (screen.availHeight - height) / 2 + screen.availTop;open("./btn/btn3.html", "", `width=${width}, height=${height}, left=${x}, top=${y}`);});
+$(btn4).on('click',e=>{const width = 700;const height = 500;const x = (screen.availWidth - width) / 2 + screen.availLeft;const y = (screen.availHeight - height) / 2 + screen.availTop;open("./btn/btn4.html", "", `width=${width}, height=${height}, left=${x}, top=${y}`);});
+$(btn5).on('click',e=>{const width = 700;const height = 500;const x = (screen.availWidth - width) / 2 + screen.availLeft;const y = (screen.availHeight - height) / 2 + screen.availTop;open("./btn/btn5.html", "", `width=${width}, height=${height}, left=${x}, top=${y}`);});

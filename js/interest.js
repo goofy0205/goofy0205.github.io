@@ -1,0 +1,5 @@
+$(btn1).on('click', e=>{$(car).slideUp(0);$(electronics).slideUp(0);$(main).slideUp(0);$(travel).slideToggle(1000);});
+$(btn2).on('click', e=>{$(travel).slideUp(0);$(electronics).slideUp(0);$(main).slideUp(0);$(car).slideToggle(1000);});
+$(btn3).on('click', e=>{$(car).slideUp(0);$(travel).slideUp(0);$(main).slideUp(0);$(electronics).slideToggle(1000);});
+$(carlink).on('click',e=>{const width = 700;const height = 500;const x = (screen.availWidth - width) / 2 + screen.availLeft;const y = (screen.availHeight - height) / 2 + screen.availTop;open("./carpop.html", "", `width=${width}, height=${height}, left=${x}, top=${y}`);});
+$(eleclink).on('click',e=>{const width = 700;const height = 500;const x = (screen.availWidth - width) / 2 + screen.availLeft;const y = (screen.availHeight - height) / 2 + screen.availTop;open("./elecpop.html", "", `width=${width}, height=${height}, left=${x}, top=${y}`);});

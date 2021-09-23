@@ -1,0 +1,20 @@
+aside{position: fixed;left: 90%;bottom: 40%;width: 0;text-align: center;}
+a{color: black;text-decoration: none;}
+h2{color: blue;font-weight: 700;font-size: 40px;text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;}
+body{text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;background-image: url(../images/business-partners-handshake-global-corporate-with-technology-concept.jpg);background-attachment: fixed;text-align: center;background-repeat: no-repeat;background-size: cover;font-family: 'Hi Melody', cursive;}
+article{display: none;}
+#resume{padding: 5px;text-align: left;background-color: white;}
+#main {display: inline;}
+.title:hover{cursor: pointer;}
+table {border: 1px solid black;width: 900px;}
+#idphoto {width: 130px;}
+#idphotoimg {padding: 5px;}
+th,td{border: 1px solid #000;text-align: center;text-shadow:none}
+p{display: none;font-size:large;}
+#btn1, #btn2{background-color: lightskyblue;border: none;color: #ffffff;cursor: pointer;display: inline-block;font-size: 1em;font-size: 22px;line-height: 1em;width: 18%;margin: 15px 40px;outline: none;padding: 12px 40px 10px;position: relative;font-weight: 700;text-shadow:-1px 0 lightslategray, 0 1px lightslategray, 1px 0 lightslategray, 0 -1px lightslategray;font-family:'Hi Melody', cursive;}
+#btn1:before,#btn2:before,#btn1:after,#btn2:after{border-color: transparent;-webkit-transition: all 0.25s;transition: all 0.25s;border-style: solid;border-width: 0;content: "";height: 24px;position: absolute;width: 24px;}
+#btn1:before,#btn2:before{border-color: orange;border-right-width: 2px;border-top-width: 2px;right: -5px;top: -5px;}
+#btn1:after,#btn2:after{border-color: orange;border-bottom-width: 2px;border-left-width: 2px;bottom: -5px;left: -5px;}
+#btn1:hover:before,#btn2:hover:before,#btn1:hover:after,#btn2:hover:after{height: 100%;width: 100%;}
+#btn3,#btn4,#btn5{cursor: pointer;width: 60px;height: 30px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family:'Hi Melody', cursive;}
+#btn6{width: 80px;height: 50px;font-size: 15px;font-weight: 500;color: #000;background-color: #fff;border: none;border-radius: 45px;box-shadow: 0px 8px 25px rgba(0, 0, 0, 1);outline: none;font-family: 'Hi Melody', cursive;}
